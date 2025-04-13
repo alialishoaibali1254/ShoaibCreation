@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import AddDesignForm from './components/AddDesignForm';
+import AddDesignForm from './Components/AddDesignForm';
 import DesignList from '../src/Components/DesignList';
-import SearchBar from './components/SearchBar';
+import SearchBar from './Components/SearchBar';
 import './App.css';
 
 const LOCAL_STORAGE_KEY = 'fsstudio_designs'; // Key to save designs in localStorage
